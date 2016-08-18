@@ -47,7 +47,7 @@
                                              inMainQueue:YES] lastObject];
 
   NSSortDescriptor* orderDescriptor =
-      [[NSSortDescriptor alloc] initWithKey:@"order" ascending:NO];
+      [[NSSortDescriptor alloc] initWithKey:@"order" ascending:YES];
   NSSortDescriptor* iDDescriptor =
       [[NSSortDescriptor alloc] initWithKey:@"infoId" ascending:YES];
 
