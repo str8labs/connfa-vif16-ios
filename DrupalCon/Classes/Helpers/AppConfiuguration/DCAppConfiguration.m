@@ -81,7 +81,7 @@ static NSBundle* themeBundle;
       kMenuType : @(DCMENU_PROGRAM_ITEM)
     },
     @{
-      kMenuItemTitle : @"BoFs",
+      kMenuItemTitle : @"Orga",
       kMenuItemIcon : @"menu_icon_bofs",
       kMenuItemSelectedIcon : @"menu_icon_bofs_sel",
       kMenuItemControllerId : @"DCProgramViewController",

@@ -177,7 +177,7 @@ const NSString* kDCEventOrderKey = @"order";
       break;
 
     case DC_EVENT_REGISTRATION:
-      icon_name = @"ic_program_check_in";
+      icon_name = @"ç";
       break;
 
     default:

@@ -73,6 +73,9 @@
         break;
     }
     self.experienceIcon.image = icon;
+    // CHANGE: Disabled experience Level
+    self.experienceIcon.hidden = YES;
+    self.eventLevelLabel.hidden = YES;
   } else {
     self.eventLevelLabel.text = nil;
     self.experienceIcon.hidden = YES;

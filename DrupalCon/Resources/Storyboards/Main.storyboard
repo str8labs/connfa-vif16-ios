@@ -435,7 +435,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="login_bg" width="320" height="480"/>
+        <image name="login_bg" width="21" height="21"/>
         <image name="login_btn" width="189" height="39"/>
         <image name="login_lock" width="112" height="147"/>
         <image name="menu_bg" width="222" height="471"/>

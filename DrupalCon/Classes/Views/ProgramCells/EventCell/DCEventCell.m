@@ -125,14 +125,15 @@ static NSInteger eventCellImageHeight = 16;
       event.place.length ? eventCellSubtitleHeight : 0;
 
   // Experience level
-  NSInteger eventRating = [event.level.levelId integerValue];
+  NSInteger eventRating = 3;
   NSString* ratingImageName = ratingsImagesName[eventRating];
   UIImage* ratingImage = ratingImageName.length > 0
                              ? [UIImage imageNamedFromBundle:ratingImageName]
                              : nil;
   if (ratingImage) {
     self.eventLevelImageView.image = ratingImage;
-    self.eventLevelImageView.hidden = NO;
+    // CHANGE: Diabled Experience Level
+    self.eventLevelImageView.hidden = YES;
   } else {
     self.eventLevelImageView.hidden = YES;
   }
